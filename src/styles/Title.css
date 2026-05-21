@@ -1,0 +1,32 @@
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 10rem; /* espace entre texte et image */
+
+    padding: 100px;
+    background-color: #c7d8c1;
+}
+
+
+.title_image {
+
+    display: flex;
+    justify-content: center;
+}
+
+.pixel-text {
+    font-family: 'Pixelify Sans', sans-serif;
+    font-size: 2rem;
+    white-space: pre-line;
+    line-height: 1.6;
+}
+
+.title_image img {
+    width: 320px;
+
+    border-radius: 40px 40px 40px 0px;
+
+    transform: rotate(-2deg) translateY(-50px);
+}

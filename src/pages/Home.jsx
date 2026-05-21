@@ -1,4 +1,5 @@
 import Header from "../components/Header"
+import Title from "../components/Title"
 
 function Home() {
   return (
@@ -6,7 +7,7 @@ function Home() {
       <Header />
 
       <main>
-        <h1>Accueil</h1>
+        <Title />
       </main>
     </>
   )
