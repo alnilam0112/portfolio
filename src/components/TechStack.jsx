@@ -22,38 +22,44 @@ import phpmyadmin from "../assets/icons/phpmyadmin.svg";
 import postman from "../assets/icons/postman.svg";
 
 const logos = [
-  html,
-  css,
-  javascript,
-  react,
-  nodejs,
-  express,
-  bootstrap,
-  scss,
-  php,
-  symfony,
-  git,
-  github,
-  tailwind,
-  figma,
-  penpot,
-  mysql,
-  postgresql,
-  sqlite,
-  phpmyadmin,
-  postman,
+    html,
+    css,
+    javascript,
+    react,
+    nodejs,
+    express,
+    bootstrap,
+    scss,
+    php,
+    symfony,
+    git,
+    github,
+    tailwind,
+    figma,
+    penpot,
+    mysql,
+    postgresql,
+    sqlite,
+    phpmyadmin,
+    postman,
 ];
 
 function TechBanner() {
-  return (
-    <section className="banner">
-      <div className="banner-track">
-        {[...logos, ...logos].map((logo, index) => (
-          <img key={index} src={logo} alt="tech logo" />
-        ))}
-      </div>
-    </section>
-  );
+    return (
+        <section className="banner">
+            <div className="banner-title">
+                <h2>Les technologies que j'utilise ?</h2>
+            </div>
+            <div className="banner-track">
+                {[...logos, ...logos].map((logo, index) => (
+                    <img key={index} src={logo} alt="tech logo" />
+                ))}
+            </div>
+            <div className="about" id="about">
+                <p>Toujours prête à apprendre de nouvelles technologies et à relever de nouveaux défis dans le domaine du développement web.</p>
+            </div>
+        </section>
+    );
 }
 
 export default TechBanner;
