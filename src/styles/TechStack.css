@@ -1,9 +1,12 @@
+h2 {
+  padding: 40px 60px;
+  font-family: 'montserrat', sans-serif;
+}
+
 .banner {
   width: 100%;
   overflow: hidden;
   background: transparent;
-  padding: 40px 60px;
-  font-family: 'montserrat', sans-serif;
 }
 
 .banner-track {
@@ -35,4 +38,8 @@
   to {
     transform: translateX(-50%);
   }
+}
+
+.about {
+  margin-top: 10px;
 }

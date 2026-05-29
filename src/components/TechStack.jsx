@@ -46,19 +46,25 @@ const logos = [
 
 function TechBanner() {
     return (
-        <section className="banner">
+        <>
             <div className="banner-title">
                 <h2>Les technologies que j'utilise ?</h2>
             </div>
-            <div className="banner-track">
-                {[...logos, ...logos].map((logo, index) => (
-                    <img key={index} src={logo} alt="tech logo" />
-                ))}
-            </div>
+            <section className="banner">
+
+                <div className="banner-track">
+                    {[...logos, ...logos].map((logo, index) => (
+                        <img key={index} src={logo} alt="tech logo" />
+                    ))}
+                </div>
+            </section>
+
             <div className="about" id="about">
-                <p>Toujours prête à apprendre de nouvelles technologies et à relever de nouveaux défis dans le domaine du développement web.</p>
+                <p>
+                    Toujours prête à apprendre de nouvelles technologies et à relever de nouveaux défis dans le domaine du développement web.
+                </p>
             </div>
-        </section>
+        </>
     );
 }
 
