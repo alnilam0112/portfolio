@@ -1,0 +1,32 @@
+.contact {
+    padding: 80px 60px;
+    text-align: center;
+}
+
+.contact-title h2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 2rem;
+    margin-bottom: 80px;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+}
+
+.contact-info a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.contact-info svg {
+    font-size: 4rem;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.contact-info svg:hover {
+    transform: scale(1.1);
+}
