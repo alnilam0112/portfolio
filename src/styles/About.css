@@ -1,7 +1,19 @@
 .about {
-    margin-top: -100px;
-    padding: 40px 60px;
-    border-radius: 8px;
     font-family: 'montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
 
+.about h2 {
+    margin: 0;
+    padding-top: 80px;
+    font-size: 2rem;
+}
+
+.about p {
+    margin: 0;
+    padding-left: 60px;
+    padding-right: 60px;
+    font-size: 25px;
 }
