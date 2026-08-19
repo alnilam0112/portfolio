@@ -1,5 +1,5 @@
 .contact {
-    padding: 80px 60px;
+    padding: 60px 60px;
     text-align: center;
 }
 
@@ -29,4 +29,5 @@
 
 .contact-info svg:hover {
     transform: scale(1.1);
+    color: #68a479;
 }

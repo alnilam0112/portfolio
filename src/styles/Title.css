@@ -1,31 +1,50 @@
 .title {
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 10rem; /* espace entre texte et image */
-    padding-top: 100px;
+    background-color: rgba(104, 164, 121, 0.2);
+    border-radius: 20px;
+    border: 4px solid rgba(104, 164, 121, 0.1);
+    margin: 40px auto;
+    padding: 50px;
+    width: 60%;
 }
 
+.title_text,
+.title_image {
+   width: 50%;
+}
 
 .title_image {
-
     display: flex;
     justify-content: center;
 }
 
 .pixel-text {
     font-family: 'Pixelify Sans', sans-serif;
-    font-size: 2.1rem;
+    font-size: 2rem;
     white-space: pre-line;
     line-height: 1.6;
+    width: 100%;
+    text-align: center;
 }
 
 .title_image img {
     width: 400px;
     border-radius: 40px 40px 40px 0px;
-    transform: rotate(2deg) translateY(-50px);
+    transform: rotate(2deg);
 }
 
 .title_text {
-    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.title_text {
+    transform: translateX(60px);
+}
+
+.title_image {
+    transform: translateX(-60px);
 }

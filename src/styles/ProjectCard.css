@@ -1,7 +1,7 @@
-.project-card {
+/*.project-card {
     max-width: 900px;
     margin: 50px auto;
-}
+}*/
 
 .project-card h2 {
     text-align: center;
@@ -16,7 +16,6 @@
 }
 
 .project-card p {
-    margin-top: 15px;
     font-size: 1.1rem;
     line-height: 1.5;
 }
@@ -28,4 +27,8 @@
 
 .read-more:hover {
     text-decoration: underline;
+}
+
+.project-description {
+    font-family: 'montserrat', sans-serif;
 }

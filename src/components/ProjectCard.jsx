@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "../styles/ProjectCard.css";
 
-function ProjectCard({ title, video, description }) {
+function ProjectCard({ title, video, description, shortDescription }) {
     const [showMore, setShowMore] = useState(false);
 
     return (
@@ -13,17 +13,16 @@ function ProjectCard({ title, video, description }) {
                 Votre navigateur ne supporte pas les vidéos.
             </video>
 
-            <p>
-                {showMore
-                    ? description
-                    : description.slice(0, 100) + "... "}
+            
+                <div className="project-description">
+                    {showMore ? description : shortDescription}
                 <span
                     className="read-more"
                     onClick={() => setShowMore(!showMore)}
                 >
                     {showMore ? "Voir moins" : "Lire la suite"}
                 </span>
-            </p>
+            </div>
         </div>
     );
 }
